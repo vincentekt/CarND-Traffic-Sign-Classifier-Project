@@ -164,12 +164,12 @@ Here are seven German traffic signs that I found on the web:
 | No. | Image			                  |     Label	        	| Real World   | Challenges                 |          
 |:---:|:---------------------------------:|:-----------------------:|:------------:|:--------------------------:| 
 |  1  | ![image](resources/1007-30.png)   | Beware of ice/snow   	| No           | Deprecated, not real world |
-|  2  | ![image](resources/101-51.png)    | Beware of ice/snow   	| No           | None, not real life        |
-|  3  | ![image](resources/105-10.png)    | Double curve   			| No           | None, not real life        |
-|  4  | ![image](resources/105-20.png)    | Double curve   			| No           | None, not real life        |
-|  5  | ![image](resources/114.png)       | Slippery road 			| No           | None, not real life        |
-|  6  | ![image](resources/209-10.png)    | Turn left ahead			| No           | None, not real life        |
-|  7  | ![image](resources/209.png)       | Turn right ahead   		| No           | None, not real life        |
+|  2  | ![image](resources/101-51.png)    | Beware of ice/snow   	| No           | Not real world        |
+|  3  | ![image](resources/105-10.png)    | Double curve   			| No           | Not real world        |
+|  4  | ![image](resources/105-20.png)    | Double curve   			| No           | Not real world        |
+|  5  | ![image](resources/114.png)       | Slippery road 			| No           | Not real world        |
+|  6  | ![image](resources/209-10.png)    | Turn left ahead			| No           | Not real world        |
+|  7  | ![image](resources/209.png)       | Turn right ahead   		| No           | Not real world        |
 |  8  | ![image](resources/2_1.png)       | Speed limit (50km/h)    | Yes          | Rotation                   |
 |  9  | ![image](resources/12_1.png)      | Priority road			| Yes          | Background sign            |
 |  10 | ![image](resources/17_1.png)      | No entry    			| Yes          | Skewed                     |
