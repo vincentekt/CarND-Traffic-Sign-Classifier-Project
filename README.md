@@ -203,17 +203,17 @@ Here are the results of the prediction:
 
 The accuracy is 11/14, 78.6% meanwhile the previous test accuracy is 96.2%. However, if we consider only those real 
  world images for the new test dataset, the accuracy would be around 6/7, 85.7%. Since the new test dataset is very 
- small, it's hard to judge if the value reflects the actual performance of the data. Probably we should have collected 
- more data, according to the distribution of classes as seen above up until the swap of one image in the new test 
+ small, it's hard to judge if the value reflects the actual performance of the model. Probably we should have collected 
+ more data, according to the distribution of classes as seen above up until the swapping of one image in the new test 
   dataset doesn't affect the test accuracies by more than 5% ( statistical significance ), i.e.: 
    
-   1. **BEFORE** swap of 1 image in the new test dataset: Test accuracy = 78.6%.
-   2. **AFTER** swap of 1 image in the new test dataset: Test accuracy = 78.6 +/- 3.93%.
+   1. **BEFORE** swapping of 1 image in the new test dataset: Test accuracy = 78.6%.
+   2. **AFTER** swapping of 1 image in the new test dataset: Test accuracy = 78.6 +/- 3.93%.
 
 It would be even better if the new test dataset collected fulfills the above condition at class level:
 
-1. Test accuracy for 'Double curve' **BEFORE** swaping 1 of 'Double curve' test images: Class test accuracy = 70%.
-2. Test accuracy for 'Double curve' **AFTER** swaping 1 of 'Double curve' test images: Class test accuracy = 70% +/- 3.5%.
+1. Test accuracy for 'Double curve' **BEFORE** swapping 1 of 'Double curve' test images: Class test accuracy = 70%.
+2. Test accuracy for 'Double curve' **AFTER** swapping 1 of 'Double curve' test images: Class test accuracy = 70% +/- 3.5%.
 
 Else the test accuracy for the new test dataset could hardly tell the fitness of the model.
 

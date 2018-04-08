@@ -18,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="171" column="99" lean-forward="false" selection-start-line="171" selection-start-column="99" selection-end-line="171" selection-end-column="99" />
+              <first_editor relative-caret-position="229">
+                <caret line="214" column="51" lean-forward="false" selection-start-line="214" selection-start-column="47" selection-end-line="214" selection-end-column="51" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -32,6 +32,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>certainly</find>
+      <find>swap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,8 +147,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="171" column="99" lean-forward="false" selection-start-line="171" selection-start-column="99" selection-end-line="171" selection-end-column="99" />
+          <first_editor relative-caret-position="229">
+            <caret line="214" column="51" lean-forward="false" selection-start-line="214" selection-start-column="47" selection-end-line="214" selection-end-column="51" />
             <folding />
           </first_editor>
           <second_editor />
