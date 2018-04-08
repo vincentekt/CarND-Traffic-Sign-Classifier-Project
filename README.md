@@ -112,7 +112,7 @@ My final model consisted of the following layers:
 | Conv-Pool 6 | RELU	              |											     |
 |             | Max pooling 3x3	      | 1x1 stride, valid padding, outputs 8x8x256   |
 |             |                       |											     |
-|             | Average Pooling 6x6   | 1x1 stride, valid padding, outputs 8x256      | 
+|             | Average Pooling 8x8   | 1x1 stride, valid padding, outputs 8x256      | 
 |             | Fully connected	      | weights 256x43        					     |
 |   Output    | Softmax				  |         								     |
 
