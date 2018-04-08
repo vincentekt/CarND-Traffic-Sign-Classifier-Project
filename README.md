@@ -45,8 +45,8 @@ This is detrimental towards the learning. Simple quick-fixes like upscaling and 
 ![image](resources/Class_Set_Percentage.png)
 
 From the graph above we can see that, the composition of different classes across different sets of data, i.e.: train, 
-valid and test. This is telling us that the validation and test accuracies reflect the quality of learning done by the 
-model.
+valid and test. Since the composition ratio is quite consistent across different classes, the validation and test 
+accuracies can rightfully translates into the quality of learning done by the model.
 
 ### Design and Test a Model Architecture
 
