@@ -64,9 +64,10 @@ training data size.
 ![image](resources/aug_1.png)
 ![image](resources/aug_2.png)
 
-After that, I performed gray-scaling because it would reduce computations by a factor of 3, certainly only if it doesn't
-sacrifice too much of model's performance. Apart from that, I reckon 'gray-scale models' is applicable to LIDAR where 
-RGB info is not available. 
+After that, I performed gray-scaling because it would reduce computations by a factor of 3. This is definitely desirable
+ but it could adversely affect the model's performance. I have tested and found that with the current model, both the 
+ RGB and gray-scale are very close in terms of the models resultant performance. Apart from that, I reckon 'gray-scale 
+ models' is applicable to LIDAR where RGB info is not available. 
 
 ![image](resources/gray_1.png)
 ![image](resources/gray_2.png)
@@ -86,7 +87,7 @@ My final model consisted of the following layers:
 
 | Name        | Layer        	      |     Description	        				     | 
 |:-----------:|:---------------------:|:--------------------------------------------:| 
-|             | Input         	      | 32x32x3 RGB image   						 | 
+|             | Input         	      | 32x32x1 RGB image   						 | 
 |             | Convolution 3x3       | 1x1 stride, valid padding, outputs 30x30x8   |
 | Conv-Pool 1 | RELU				  |											     |
 |             | Max pooling 3x3	      | 1x1 stride, valid padding, outputs 28x28x8   |
