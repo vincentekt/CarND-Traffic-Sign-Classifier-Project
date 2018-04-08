@@ -87,7 +87,7 @@ My final model consisted of the following layers:
 
 | Name        | Layer        	      |     Description	        				     | 
 |:-----------:|:---------------------:|:--------------------------------------------:| 
-|             | Input         	      | 32x32x1 RGB image   						 | 
+| Input       | Input         	      | 32x32x1 RGB image   						 | 
 |             | Convolution 3x3       | 1x1 stride, valid padding, outputs 30x30x8   |
 | Conv-Pool 1 | RELU				  |											     |
 |             | Max pooling 3x3	      | 1x1 stride, valid padding, outputs 28x28x8   |
@@ -115,8 +115,7 @@ My final model consisted of the following layers:
 |             | Average Pooling 6x6   | 1x1 stride, valid padding, outputs 8x256      | 
 |             | Fully connected	      | weights 256x43        					     |
 |   Output    | Softmax				  |         								     |
-|             |						  |											     |
-|             |						  |											     |
+
  
 
 
